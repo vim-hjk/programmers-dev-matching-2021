@@ -211,7 +211,7 @@ print('std:  '  + str(total_std))
 
 ---
 
-***Conclusion**
+**Conclusion**
 
 문제가 쉬워 대회 변별력이 그렇게 크지 않았던 것 같다. 
 
