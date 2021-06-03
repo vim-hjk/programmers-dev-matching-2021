@@ -28,23 +28,23 @@
 
 ---
 
-### `**Name : 참가자 #299752**`
+### **Name : 참가자 #299752**
 
-`**Rank : 2**`
+- **Rank : 2**
 
-`**Final Score : 98.571**`
+- **Final Score : 98.571**
 
-`**Entries : 11**`
+- **Entries : 11**
 
-### `**Task**`
+### **Task**
 
-`**Paint image classification**`
+- **Paint image classification**
 
-### `**Notebook**`
+### **Notebook**
 
-[submission.ipynb](./submission.ipynb)
+- [submission.ipynb](./submission.ipynb)
 
-[submission.html](./submission.html)
+- [submission.html](./submission.html)
 
 ---
 
@@ -194,7 +194,7 @@ print('std:  '  + str(total_std))
 
     - **Local Optima에서 잘 빠져나간다.**
 
-![Programmers%202021%20Dev-Matching%20%E1%84%86%E1%85%A5%E1%84%89%E1%85%B5%E1%86%AB%E1%84%85%E1%85%A5%E1%84%82%E1%85%B5%E1%86%BC%20%E1%84%80%E1%85%A2%E1%84%87%E1%85%A1%E1%86%AF%E1%84%8C%E1%85%A1%20(%204a873f6302e54679a9e97dfef41e61d7/Untitled%202.png](Programmers%202021%20Dev-Matching%20%E1%84%86%E1%85%A5%E1%84%89%E1%85%B5%E1%86%AB%E1%84%85%E1%85%A5%E1%84%82%E1%85%B5%E1%86%BC%20%E1%84%80%E1%85%A2%E1%84%87%E1%85%A1%E1%86%AF%E1%84%8C%E1%85%A1%20(%204a873f6302e54679a9e97dfef41e61d7/Untitled%202.png)
+![Programmers%202021%20Dev-Matching%20%E1%84%86%E1%85%A5%E1%84%89%E1%85%B5%E1%86%AB%E1%84%85%E1%85%A5%E1%84%82%E1%85%B5%E1%86%BC%20%E1%84%80%E1%85%A2%E1%84%87%E1%85%A1%E1%86%AF%E1%84%8C%E1%85%A1%20(%204a873f6302e54679a9e97dfef41e61d7/Untitled%202.png](image/Untitled%202.png)
 
 ---
 
@@ -211,7 +211,7 @@ print('std:  '  + str(total_std))
 
 ---
 
-***Conclusion*
+***Conclusion**
 
 문제가 쉬워 대회 변별력이 그렇게 크지 않았던 것 같다. 
 
