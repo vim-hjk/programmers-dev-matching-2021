@@ -1,0 +1,100 @@
+base:
+  seed: 77
+  model_arc: 'nfnet_l0'
+  num_classes: 7
+  input_dir: './train/train.csv'
+  output_dir: './results/'
+  train_only: False
+  image_size: 227
+  cutmix_args:
+    use_cutmix: False
+    beta: 1.0
+    cutmix_prob: 0.5
+  train_args:
+    num_epochs: 6
+    train_batch_size: 32
+    val_batch_size: 32
+    max_lr: 0.0001
+    min_lr: 0.00001
+    cycle: 3
+    gamma: 0.5
+    weight_decay: 0.000001
+    log_intervals: 10
+    eval_metric: 'accuracy'    
+    n_splits: 5
+    
+nfnet:
+  seed: 77
+  model_arc: 'nfnet_l0'
+  num_classes: 7
+  input_dir: './train/train.csv'
+  output_dir: './results/'
+  train_only: False
+  image_size: 227
+  cutmix_args:
+    use_cutmix: True
+    beta: 1.0
+    cutmix_prob: 0.5
+  train_args:
+    num_epochs: 6
+    train_batch_size: 32
+    val_batch_size: 32
+    max_lr: 0.0001
+    min_lr: 0.00001
+    cycle: 3
+    gamma: 0.5
+    weight_decay: 0.000001
+    log_intervals: 10
+    eval_metric: 'accuracy'
+    n_splits: 5
+    
+swin:
+  seed: 777
+  model_arc: 'swin_base_patch4_window7_224'
+  num_classes: 7
+  input_dir: './train/train.csv'
+  output_dir: './results/'
+  train_only: False
+  image_size: 224
+  cutmix_args:
+    use_cutmix: True
+    beta: 1.0
+    cutmix_prob: 0.5
+  train_args:
+    num_epochs: 10
+    train_batch_size: 16
+    val_batch_size: 16
+    max_lr: 0.0001
+    min_lr: 0.00001
+    cycle: 3
+    gamma: 0.5
+    weight_decay: 0.000001
+    log_intervals: 10
+    eval_metric: 'accuracy'    
+    n_splits: 5
+    
+    
+xception:
+  seed: 77
+  model_arc: 'xception'
+  num_classes: 7
+  input_dir: './train/train.csv'
+  output_dir: './results/'
+  train_only: False
+  image_size: 227
+  cutmix_args:
+    use_cutmix: True
+    beta: 1.0
+    cutmix_prob: 0.5
+  train_args:
+    num_epochs: 5
+    train_batch_size: 32
+    val_batch_size: 32
+    max_lr: 0.0001
+    min_lr: 0.00001
+    cycle: 3
+    gamma: 0.5
+    weight_decay: 0.000001
+    log_intervals: 10
+    eval_metric: 'accuracy'    
+    n_splits: 5
